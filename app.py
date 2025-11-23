@@ -1,3 +1,5 @@
+# Force redeploy to use Python 3.11
+
 import streamlit as st
 from sqlalchemy import create_engine, Column, Integer, String, Text, ForeignKey, DateTime, func
 from sqlalchemy.orm import declarative_base, sessionmaker
